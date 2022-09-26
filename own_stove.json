@@ -1,0 +1,17 @@
+{
+	"mqtt":{
+		"username": "user",
+		"password": "pass",
+		"host": "127.0.0.1",
+		"port": "1883"
+	},
+	"websocket":{
+		"known_stoves": { 
+			"0016D0000001": "1234" 
+		}
+	},
+	"writable": [
+		"controller/command",
+		"controller/power/setPower"
+	]
+}
